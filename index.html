@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iframe Tester toolkit - edit an external iframe, share the details with others and have it auto-reload while you work.</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html>
+<head>
+  <title>My Webview</title>
+  <style>
+    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #222; }
+    iframe { width: 100%; height: 100%; border: none; }
+  </style>
+</head>
+<body>
+  <iframe src="https://example.com"></iframe>
+</body>
 </html>
